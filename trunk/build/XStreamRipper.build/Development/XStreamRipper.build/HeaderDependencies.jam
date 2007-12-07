@@ -1,0 +1,51 @@
+rule DefineHeaderDependencies
+{
+	INCLUDES "main.m" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "AppController.m" : "/Users/yoav/src/XStreamRipper/AppController.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/rip_manager.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/Users/yoav/src/XStreamRipper/RadioStream.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/Users/yoav/src/XStreamRipper/Node.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/Users/yoav/src/XStreamRipper/OLDataSource.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/Users/yoav/src/XStreamRipper/NSOutlineView_Extensions.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/AppController.h" : "/Users/yoav/src/XStreamRipper/MyProxyUtil.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/rip_manager.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/external.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/rip_manager.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/external.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/srconfig.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/usr/include/sys/types.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/usr/include/inttypes.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/Developer/usr/include/gcc/darwin/4.0/stdint.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/usr/include/sys/sockio.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/usr/include/wchar.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/usr/include/wctype.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srtypes.h" : "/Developer/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srconfig.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/confw32.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/streamripper/lib/srconfig.h" : "/Users/yoav/src/XStreamRipper/streamripper/lib/config.h" ;
+	INCLUDES "/Developer/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h" : "/usr/include/sys/_types.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/RadioStream.h" : "/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/Node.h" : "/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/OLDataSource.h" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/OLDataSource.h" : "/Users/yoav/src/XStreamRipper/Node.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/NSOutlineView_Extensions.h" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/MyProxyUtil.h" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/MyProxyUtil.h" : "/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h" ;
+	INCLUDES "RadioStream.m" : "/Users/yoav/src/XStreamRipper/RadioStream.h" ;
+	INCLUDES "Node.m" : "/Users/yoav/src/XStreamRipper/Node.h" ;
+	INCLUDES "OLDataSource.m" : "/Users/yoav/src/XStreamRipper/OLDataSource.h" ;
+	INCLUDES "OLDataSource.m" : "/Users/yoav/src/XStreamRipper/ImageAndTextCell.h" ;
+	INCLUDES "OLDataSource.m" : "/Users/yoav/src/XStreamRipper/NSString_Extensions.h" ;
+	INCLUDES "OLDataSource.m" : "/Users/yoav/src/XStreamRipper/NSOutlineView_Extensions.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/ImageAndTextCell.h" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/NSString_Extensions.h" : "/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h" ;
+	INCLUDES "ImageAndTextCell.m" : "/Users/yoav/src/XStreamRipper/ImageAndTextCell.h" ;
+	INCLUDES "NSOutlineView_Extensions.m" : "/Users/yoav/src/XStreamRipper/NSOutlineView_Extensions.h" ;
+	INCLUDES "MyOutlineView.m" : "/Users/yoav/src/XStreamRipper/MyOutlineView.h" ;
+	INCLUDES "/Users/yoav/src/XStreamRipper/MyOutlineView.h" : "/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h" ;
+	INCLUDES "MyProxyUtil.m" : "/Users/yoav/src/XStreamRipper/MyProxyUtil.h" ;
+	INCLUDES "NSString_Extensions.m" : "/Users/yoav/src/XStreamRipper/NSString_Extensions.h" ;
+	INCLUDES "NSString_Extensions.m" : "/System/Library/Frameworks/Foundation.framework/Headers/NSTask.h" ;
+}
+
+DefineHeaderDependencies "<XStreamRipper>XStreamRipper.app" ;
+

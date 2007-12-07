@@ -1,0 +1,141 @@
+NO GANTT CHART HERE
+===================
+Milestones:
+- 1. single threaded version (PRIORITY: Fix bugs, tweak ripping e.g.parsing of MP3 names --> ID tags)
+- 2. multi-threaded version (use pnet?)
+- 2a. scheduler (save multiple streams at the same time)
+
+
+DEVELOPMENT CHANGES
+===================
+
+Source Documentation
+- Consider putting in tags and using HeaderDoc ?
+
+CVS
+- put streamripperx into CVS locally (and then sourceforge) (with ProjectBuilder)
+
+Developer docs
+- shoutcast format
+- .pls format
+- .m3u format etc.
+
+Draw system diagram showing component interaction: SRX, SR, Libmad, etc.
+
+Design document
+- describe classes
+- describe how they interact
+
+Help (quick instructions, also mention CLI usage)
+- 'apple information access toolkit' - slow...
+- (DONE) Better to tell finder to launch a RTF file
+
+FUNCTIONAL CHANGES
+==================
+
+(DONE) .pls file drag'n'drop
+Format of .pls file:
+[playlist]
+numberofentries=16
+File1=http://205.188.209.193:80/stream/1003
+
+(DONE) iTunes stream drag'n'drop
+
+Change mouse pointer to glove (to indicate hotspot) - cursor change over buttons
+
+Deleting panel (sheet - DONE)
+- (NOT DONE YET) "Don't remind me again" checkbox in bottom left-hand corner
+
+Create and display alert panels as a "Sheet" (DONE) 7 Aug 02
+Localization - Japanese (DONE) 5 Aug 02
+ToolTips (DONE) 5 Aug 02
+
+(DONE) Change default useragent string to: iTunes/3.0 (Macintosh; N; PPC; en-US)
+
+Auto-tuning
+- (DONE) parses web pages of shoutcast.com
+- radio-locater ?
+
+Multi-threaded operation
+
+A scheduler with iCal support
+
+A "chopper" that chops up the files in configurable chunks of for example 5 minutes 
+~5MB tracks for ipod users
+
+a manual "start new track" button for those streams that don't have info about track separation.
+
+PROPER PROXY OPTION - Field for users to enter
+
+GUI changes:
+
+(DONE) Window resizing
+
+Timer - to indicate how long a stream has been recording for
+Total MBs/GBs saved
+Total #songs saved
+Total time used e.g. [1 day] [5 hrs] 35 mins
+(DONE) For individual songs, the URL table cell could display:
+- Currently ripping (Progress bar in table cell?)
+- 3249k ~ 3mb / 2:09 mins
+- Repeat rip?
+Bottom right corner
+- replace progress bar with
+Session Stats: 45 songs / 600 mb / 2 hrs 37 mins
+
+
+Scheduling - save multiple streams at the same time... dependent on MT-mode
+
+HELIX COMMUNITY
+-RealAudio
+-OggVorbis
+QT6 AAC support
+
+KNOWN BUGS
+==========
+
+Colour of table entry clashes, when selected, cannot tell that it has been selected and should be edited.
+
+The Short Version String is currently "StreamRipperX 1.03". This is too long to fit the Version column in the Finder's List View, in Apple System Profiler or other apps listing app versions. So it should be just "1.03", following the sample of all apps Apple ships with Mac OS X. The Get Info String appears in the Finder's Get Info window behind "Version:". So it should begin with the version number as well. Instead of "StreamRipperX - Internet radio to MP3" just put "1.03 - Internet radio to MP3" there. The app name is already visible in Get Info. 
+
+StreamRipperX sometimes places a trailing space at the end of an artist's name in an ID3 tag. This can result in two entries from the same artist in iTunes. Can we have an option to have SRX remove the trailing space, even if the space comes from the streamed content?
+
+BUG - umlaut character not displayed in table correctly when parsing C string from sr lib.
+ test with radiocubik:		http://streamstation.radiocubik.com:8000
+ test with japan-a-radio:	http://xstream1.com:8042/    http://64.21.4.182:8002
+
+(DONE) Menu item "Rip Stream" should be ghosted over when ripping.
+(DONE) Menu item "Stop ripping" should be added
+
+(FIXED) Build/Compile problems - absolute directory path / name problems?
+
+- 'localhost' resolution problem
+User's network setup: static ip, dns, wins, internet-connection through a gateway with firewall installed.
+Localhost & 127.0.0.1 failed, but static ip was fine.
+
+(FIXED) Foreign characters are sometimes a problem in the filename - and causes ripping to stop.
+'yuml' character caused probs.  replaced by 'y'
+
+(FIXED) Drag'n'drop of .pls link doesn't always work.  HTTP 302 redirect handled by curl.
+
+- MP2 streams don't play and generate an error
+http://music.uar.net/top/den_narodzhennia.mp2
+"SR_ERROR_NOT_SHOUTCAST_STREAM"
+
+- (DONE) Duplicate song entries - no more...
+
+- (DONE) - 7Aug02
+When invoking ripStop: the ProgressBar sometimes still animates, when it should be stopped
+and the Status: field still shows a state e.g. Buffering.
+
+(DONE) - 8 Aug 02
+- "Quit Application" (invokes NSApplication terminate:) kills the application without first checking
+  if we want to quit
+
+
+
+OTHER STUFF / NOTES
+
+NSBundle mainBundle infoDictionary
+{contents = "CFBundleVersion"} = <CFString 0x157b90 [0x8016024c]>{contents = "0.1"}
+(v0.11) save the version in defaults as CFBundleVersion

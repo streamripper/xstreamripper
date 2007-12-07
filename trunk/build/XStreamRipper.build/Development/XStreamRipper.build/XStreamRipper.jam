@@ -1,0 +1,168 @@
+# Jamfile for configuration Development of target "XStreamRipper" of project "XStreamRipper"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project "XStreamRipper"
+export deferred ANTICIPATED_BUILT_PRODUCTS_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred ANTICIPATED_TARGET_BUILD_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred BUILD_STYLE = "$(CONFIGURATION)" ;
+export deferred CONFIGURATION = Development ;
+export deferred CONFIGURATION_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION) ;
+export deferred CONFIGURATION_TEMP_DIR = $(PROJECT_TEMP_DIR)/$(CONFIGURATION) ;
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred GID = 501 ;
+export deferred GROUP = yoav ;
+export deferred MAC_OS_X_VERSION_ACTUAL = 1051 ;
+export deferred MAC_OS_X_VERSION_MAJOR = 1050 ;
+export deferred NATIVE_ARCH = i386 ;
+export deferred NATIVE_ARCH_32_BIT = i386 ;
+export deferred NATIVE_ARCH_64_BIT = x86_64 ;
+export deferred NATIVE_ARCH_ACTUAL = x86_64 ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_DIR = /Users/yoav/src/XStreamRipper ;
+export deferred PROJECT_FILE_PATH = /Users/yoav/src/XStreamRipper/XStreamRipper.xcodeproj ;
+export deferred PROJECT_NAME = XStreamRipper ;
+export deferred PROJECT_TEMP_DIR = $(OBJROOT)/$(PROJECT_NAME).build ;
+export deferred SRCROOT = /Users/yoav/src/XStreamRipper ;
+export deferred TARGET_TEMP_DIR = $(CONFIGURATION_TEMP_DIR)/$(TARGET_NAME).build ;
+export deferred TEMP_DIR = $(TARGET_TEMP_DIR) ;
+export deferred UID = 501 ;
+export deferred USER = yoav ;
+export deferred VALID_ARCHS = ppc64 ppc7400 ppc970 i386 x86_64 ppc ;
+export deferred XCODE_VERSION_ACTUAL = 0300 ;
+export deferred XCODE_VERSION_MAJOR = 0300 ;
+
+# Project-wide settings for project "XStreamRipper"
+
+# User-defined project-wide settings for project "XStreamRipper"
+
+# Build Settings for target "XStreamRipper"
+
+export deferred _INFO_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/Info.plist" ;
+export deferred _PKGINFO_FILE_PATH = "$(TARGET_TEMP_DIR)/PkgInfo" ;
+export deferred _PBDEVELOPMENT_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/pbdevelopment.plist" ;
+
+# Implicitly computed build settings for target "XStreamRipper"
+export deferred PFE_FILE_C_DIALECTS = objective-c ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = XStreamRipper ;
+
+# User-defined build settings for target "XStreamRipper"
+export deferred COPY_PHASE_STRIP = NO ;
+export deferred FRAMEWORK_SEARCH_PATHS =  ;
+export deferred GCC_DYNAMIC_NO_PIC = NO ;
+export deferred GCC_ENABLE_FIX_AND_CONTINUE = YES ;
+export deferred GCC_GENERATE_DEBUGGING_SYMBOLS = YES ;
+export deferred GCC_OPTIMIZATION_LEVEL = 0 ;
+export deferred HEADER_SEARCH_PATHS = streamripper/tre-0.7.5/lib streamripper/libmad-0.15.1b streamripper/lib ;
+export deferred INSTALL_PATH = "$(HOME)/Applications" ;
+export deferred LIBRARY_SEARCH_PATHS = libvorbis libogg "$(SRCROOT)/streamripper/lib" "$(SRCROOT)/streamripper" "$(SRCROOT)/libogg-1.1.3" "$(SRCROOT)/libvorbis-1.2.0" ;
+export deferred OPTIMIZATION_CFLAGS = -O0 ;
+export deferred OTHER_CFLAGS = -DDEBUG ;
+export deferred OTHER_LDFLAGS = -liconv streamripper/argv.o ;
+export deferred PRODUCT_NAME = XStreamRipper ;
+export deferred SECTORDER_FLAGS =  ;
+export deferred WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas ;
+export deferred WRAPPER_EXTENSION = app ;
+export deferred ZERO_LINK = YES ;
+
+# Target "XStreamRipper"
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginApplication "<XStreamRipper>XStreamRipper.app" ;
+
+# Headers
+HEADERS =
+	AppController.h
+	RadioStream.h
+	Node.h
+	OLDataSource.h
+	ImageAndTextCell.h
+	NSOutlineView_Extensions.h
+	MyOutlineView.h
+	MyProxyUtil.h
+	NSString_Extensions.h ;
+ProcessHeaders "<XStreamRipper>XStreamRipper.app" : "$(HEADERS)" : "" : BPTag000 ;
+
+# Resources
+English.lproj/InfoPlist.strings_REGION = English ;
+English.lproj/Localizable.strings_REGION = English ;
+English.lproj/Localizable.strings_UNIQUENAME = Localizable_01 ;
+Japanese.lproj/Localizable.strings_REGION = Japanese ;
+Japanese.lproj/Localizable.strings_UNIQUENAME = Localizable_02 ;
+German.lproj/Localizable.strings_REGION = German ;
+German.lproj/Localizable.strings_UNIQUENAME = Localizable_03 ;
+Italian.lproj/Localizable.strings_REGION = Italian ;
+Italian.lproj/Localizable.strings_UNIQUENAME = Localizable_04 ;
+English.lproj/MainMenu.nib_REGION = English ;
+English.lproj/MainMenu.nib_UNIQUENAME = MainMenu_01 ;
+German.lproj/MainMenu.nib_REGION = German ;
+German.lproj/MainMenu.nib_UNIQUENAME = MainMenu_02 ;
+Italian.lproj/MainMenu.nib_REGION = Italian ;
+Italian.lproj/MainMenu.nib_UNIQUENAME = MainMenu_03 ;
+Japanese.lproj/MainMenu.nib_REGION = Japanese ;
+Japanese.lproj/MainMenu.nib_UNIQUENAME = MainMenu_04 ;
+RESOURCES =
+	English.lproj/InfoPlist.strings
+	Credits.rtf
+	images/24_add_row.png
+	images/24_delete_row.png
+	images/stock_exec.png
+	images/stock_stop.png
+	images/16_sound_gnome.png
+	"images/local-16folder-evolution.png"
+	radiostreams.plist
+	images/song.png
+	images/stream.png
+	images/16_loopback.png
+	HISTORY.txt
+	English.lproj/Localizable.strings
+	Japanese.lproj/Localizable.strings
+	German.lproj/Localizable.strings
+	Italian.lproj/Localizable.strings
+	images/LinkCursor.tiff
+	COMPILE.txt
+	ParseShoutcastWWW.pl
+	streamripper/libmad.a
+	English.lproj/MainMenu.nib
+	German.lproj/MainMenu.nib
+	Italian.lproj/MainMenu.nib
+	Japanese.lproj/MainMenu.nib
+	UsingXStreamRipper.rtf
+	XStreamRipper.icns ;
+ProcessResources "<XStreamRipper>XStreamRipper.app" : "$(RESOURCES)" : BPTag000 : BPTag001 ;
+
+# Sources
+SOURCES =
+	main.m
+	AppController.m
+	RadioStream.m
+	Node.m
+	OLDataSource.m
+	ImageAndTextCell.m
+	NSOutlineView_Extensions.m
+	MyOutlineView.m
+	MyProxyUtil.m
+	NSString_Extensions.m ;
+ProcessSources "<XStreamRipper>XStreamRipper.app" : "$(SOURCES)" : BPTag001 : BPTag002 ;
+
+# Frameworks & Libraries
+/System/Library/Frameworks/Cocoa.framework_ATTRIBUTES = AbsolutePath ;
+/System/Library/Frameworks/SystemConfiguration.framework_ATTRIBUTES = AbsolutePath ;
+FRAMEWORKS_AND_LIBRARIES =
+	streamripper/libmad.a
+	/System/Library/Frameworks/Cocoa.framework
+	/System/Library/Frameworks/SystemConfiguration.framework
+	streamripper/lib/libstreamripper.a
+	streamripper/libtre.a
+	"libogg-1.1.3/libogg.a"
+	"libvorbis-1.2.0/libvorbis.a" ;
+ProcessFrameworksAndLibraries "<XStreamRipper>XStreamRipper.app" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag002 : BPTag003 ;
+
+include $(TEMP_DIR)/HeaderDependencies.jam ;
+EndApplication "<XStreamRipper>XStreamRipper.app" ;
+
