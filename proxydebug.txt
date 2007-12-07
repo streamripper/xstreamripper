@@ -1,0 +1,36 @@
+2002-11-28 22:23:50.243 StreamRipperX[9894] -[AppController awakeFromNib]
+2002-11-28 22:23:50.244 StreamRipperX[9894] debug switch on = DEBUG
+2002-11-28 22:24:53.354 StreamRipperX[9894] dragndrop: itunes string = http://pri.kts-af.net/redir/index.pls?esid=cf20f1a6568d8d181a64c05c0cdbfaf5&url_no=1&client_id=7&uid=68efed4d03ec7e45fd3978262c107180&clicksrc=xml
+2002-11-28 22:24:53.354 StreamRipperX[9894] dragndrop: itunes plist = (null)
+2002-11-28 22:24:53.355 StreamRipperX[9894] dragndrop: itunes name string = Radiostorm Classic Rock
+2002-11-28 22:25:37.014 StreamRipperX[9894] url to resolve / rip: http://pri.kts-af.net/redir/index.pls?esid=cf20f1a6568d8d181a64c05c0cdbfaf5&url_no=1&client_id=7&uid=68efed4d03ec7e45fd3978262c107180&clicksrc=xml
+2002-11-28 22:25:37.015 StreamRipperX[9894] -[NSString(MyExtensions) getURLWithCurl]
+2002-11-28 22:25:37.015 StreamRipperX[9894] url = http://pri.kts-af.net/redir/index.pls?esid=cf20f1a6568d8d181a64c05c0cdbfaf5&url_no=1&client_id=7&uid=68efed4d03ec7e45fd3978262c107180&clicksrc=xml
+2002-11-28 22:25:38.630 StreamRipperX[9894] output from curl = 
+[playlist]
+File1=http://152.163.134.164:80/stream/1014
+Title1=Radiostorm.com: CLASSICROCK
+Length1=-1
+File2=http://205.188.209.193:80/stream/1014
+Title2=Radiostorm.com: CLASSICROCK
+Length2=-1
+File3=http://205.188.234.3:8028
+Title3=Radiostorm.com: CLASSICROCK
+Length3=-1
+NumberOfEntries=3
+Version=2
+2002-11-28 22:25:38.631 StreamRipperX[9894] -[NSString(MyExtensions) getValueForKey:]
+2002-11-28 22:25:38.631 StreamRipperX[9894] data = [playlist]
+File1=http://152.163.134.164:80/stream/1014
+Title1=Radiostorm.com: CLASSICROCK
+Length1=-1
+File2=http://205.188.209.193:80/stream/1014
+Title2=Radiostorm.com: CLASSICROCK
+Length2=-1
+File3=http://205.188.234.3:8028
+Title3=Radiostorm.com: CLASSICROCK
+Length3=-1
+NumberOfEntries=3
+Version=2
+2002-11-28 22:25:38.632 StreamRipperX[9894] ripStart: http://152.163.134.164:80/stream/1014
+2002-11-28 22:25:39.452 StreamRipperX[9894] RM_UPDATE
