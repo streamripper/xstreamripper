@@ -1,5 +1,0 @@
-ripaac.o ripaac.o: ripaac.c srconfig.h config.h
-
-srconfig.h:
-
-config.h:

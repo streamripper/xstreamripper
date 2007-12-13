@@ -1,1 +1,0 @@
-iconvert.o iconvert.o: iconvert.c
