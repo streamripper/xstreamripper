@@ -2,7 +2,7 @@ debug.o debug.o: debug.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
   /usr/include/machine/_types.h /usr/include/i386/_types.h \
   /usr/include/string.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
   /usr/include/stdlib.h /usr/include/available.h /usr/include/sys/wait.h \
   /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
   /usr/include/machine/signal.h /usr/include/i386/signal.h \
@@ -14,13 +14,13 @@ debug.o debug.o: debug.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
   /usr/include/machine/types.h /usr/include/i386/types.h srtypes.h \
   srconfig.h config.h /usr/include/sys/types.h /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h \
   /usr/include/wchar.h /usr/include/time.h /usr/include/_structs.h \
   /usr/include/_wctype.h /usr/include/ctype.h /usr/include/runetype.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h threadlib.h \
-  compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  threadlib.h compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
   /usr/include/sys/unistd.h /usr/include/sys/select.h \
   /usr/include/sys/_select.h /usr/include/fcntl.h \
   /usr/include/sys/fcntl.h /usr/include/semaphore.h \
@@ -42,7 +42,7 @@ debug.o debug.o: debug.c /usr/include/stdio.h /usr/include/_types.h \
 
 /usr/include/string.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
 /usr/include/stdlib.h:
 
@@ -94,7 +94,7 @@ config.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 
@@ -114,7 +114,7 @@ config.h:
 
 /usr/include/wctype.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 threadlib.h:
 

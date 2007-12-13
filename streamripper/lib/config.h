@@ -81,7 +81,7 @@
 /* #undef HAVE_NDIR_H */
 
 /* Define to 1 if you have both the ogg and vorbis libraries installed */
-#define HAVE_OGG_VORBIS 1
+#define HAVE_OGG_VORBIS 0
 
 /* Define to 1 if you have the `socket' function. */
 #define HAVE_SOCKET 1
