@@ -13,16 +13,17 @@ cbuf2.o cbuf2.o: cbuf2.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/machine/types.h /usr/include/i386/types.h \
   /usr/include/string.h relaylib.h srtypes.h srconfig.h config.h \
   /usr/include/sys/types.h /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
   /usr/include/time.h /usr/include/_structs.h /usr/include/_wctype.h \
   /usr/include/ctype.h /usr/include/runetype.h /usr/include/wctype.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h compat.h \
-  /usr/include/sys/stat.h /usr/include/unistd.h /usr/include/sys/unistd.h \
-  /usr/include/sys/select.h /usr/include/sys/_select.h \
-  /usr/include/fcntl.h /usr/include/sys/fcntl.h /usr/include/semaphore.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h /usr/include/fcntl.h \
+  /usr/include/sys/fcntl.h /usr/include/semaphore.h \
   /usr/include/sys/semaphore.h /usr/include/pthread.h \
   /usr/include/pthread_impl.h /usr/include/sched.h cbuf2.h threadlib.h \
   list.h debug.h ripogg.h
@@ -93,7 +94,7 @@ config.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 
@@ -101,7 +102,7 @@ config.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
 /usr/include/time.h:
 
@@ -115,7 +116,7 @@ config.h:
 
 /usr/include/wctype.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 compat.h:
 

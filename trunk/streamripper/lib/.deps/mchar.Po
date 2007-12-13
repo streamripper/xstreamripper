@@ -12,9 +12,9 @@ mchar.o mchar.o: mchar.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
   /usr/include/machine/types.h /usr/include/i386/types.h \
   /usr/include/string.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h srconfig.h \
-  config.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  srconfig.h config.h /usr/include/unistd.h /usr/include/sys/unistd.h \
   /usr/include/sys/select.h /usr/include/sys/_select.h \
   /usr/include/wchar.h /usr/include/time.h /usr/include/_structs.h \
   /usr/include/_wctype.h /usr/include/ctype.h /usr/include/runetype.h \
@@ -22,7 +22,7 @@ mchar.o mchar.o: mchar.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/locale.h /usr/include/_locale.h /usr/include/errno.h \
   /usr/include/sys/errno.h debug.h srtypes.h /usr/include/sys/types.h \
   /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h mchar.h
 
 /usr/include/stdio.h:
@@ -79,9 +79,9 @@ mchar.o mchar.o: mchar.c /usr/include/stdio.h /usr/include/_types.h \
 
 /usr/include/string.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 srconfig.h:
 
@@ -129,7 +129,7 @@ srtypes.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 

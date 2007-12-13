@@ -9,14 +9,14 @@ threadlib.o threadlib.o: threadlib.c /usr/include/pthread.h \
   /usr/include/machine/endian.h /usr/include/i386/endian.h \
   /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
   /usr/include/_wctype.h /usr/include/ctype.h /usr/include/runetype.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h threadlib.h \
-  compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  threadlib.h compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
   /usr/include/sys/unistd.h /usr/include/sys/select.h \
   /usr/include/sys/_select.h /usr/include/fcntl.h \
   /usr/include/sys/fcntl.h /usr/include/semaphore.h \
@@ -72,7 +72,7 @@ config.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 
@@ -80,7 +80,7 @@ config.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
 /usr/include/_wctype.h:
 
@@ -90,7 +90,7 @@ config.h:
 
 /usr/include/wctype.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 threadlib.h:
 

@@ -675,22 +675,26 @@ byExtendingSelection:NO];
 	}
 	*/
 
-    m_opt.flags |= OPT_AUTO_RECONNECT;
-    if ([ separateDirs state ])
-        m_opt.flags ^= OPT_SEPERATE_DIRS;
-    if ([ searchPorts state])
+	m_opt.flags |= OPT_AUTO_RECONNECT;
+	if ([ separateDirs state ]){
+		m_opt.flags |= OPT_SEPERATE_DIRS;
+	} else {
+		m_opt.flags ^= OPT_SEPERATE_DIRS;
+	}
+	if ([ searchPorts state])
         m_opt.flags ^= OPT_SEARCH_PORTS;
-	if ([ addId3 state ])
-		m_opt.flags ^= OPT_ADD_ID3V2;
-  	m_opt.flags ^= OPT_ADD_ID3V1;
+	if ([ addId3 state ]) {
+		OPT_FLAG_SET(m_opt.flags,OPT_ADD_ID3V2,0);
+		OPT_FLAG_SET(m_opt.flags,OPT_ADD_ID3V1,0);
+	}
 	if ([ singleFile state ])
 		m_opt.flags ^= OPT_SINGLE_FILE_OUTPUT;
-    if ([ makeRelay state])
-        m_opt.flags ^= OPT_MAKE_RELAY;
-    if ([ countFiles state])
-        m_opt.flags ^= OPT_COUNT_FILES;
-    if ([ overWriteTracks state])
-        m_opt.flags ^= OPT_KEEP_INCOMPLETE;
+	if ([ makeRelay state])
+		m_opt.flags ^= OPT_MAKE_RELAY;
+	if ([ countFiles state])
+		m_opt.flags ^= OPT_COUNT_FILES;
+	if ([ overWriteTracks state])
+		m_opt.flags ^= OPT_KEEP_INCOMPLETE;
 
 	strcpy(m_opt.output_directory, [[[downloadPath stringValue] stringByStandardizingPath] cStringUsingEncoding:NSASCIIStringEncoding] );
 #ifdef DEBUG

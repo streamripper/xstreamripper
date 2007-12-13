@@ -14,15 +14,15 @@ parse.o parse.o: parse.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/string.h /usr/include/ctype.h /usr/include/runetype.h \
   srconfig.h config.h mchar.h srtypes.h /usr/include/sys/types.h \
   /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
   /usr/include/time.h /usr/include/_structs.h /usr/include/_wctype.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h debug.h \
-  /Users/yoav/src/XStreamRipper/streamripper/tre-0.7.5/lib/regex.h \
-  /Users/yoav/src/XStreamRipper/streamripper/tre-0.7.5/lib/tre-config.h
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  debug.h /Users/yoav/src/foo/streamripper/tre-0.7.5/lib/regex.h \
+  /Users/yoav/src/foo/streamripper/tre-0.7.5/lib/tre-config.h
 
 /usr/include/stdio.h:
 
@@ -94,7 +94,7 @@ srtypes.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 
@@ -102,7 +102,7 @@ srtypes.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
 /usr/include/time.h:
 
@@ -112,10 +112,10 @@ srtypes.h:
 
 /usr/include/wctype.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 debug.h:
 
-/Users/yoav/src/XStreamRipper/streamripper/tre-0.7.5/lib/regex.h:
+/Users/yoav/src/foo/streamripper/tre-0.7.5/lib/regex.h:
 
-/Users/yoav/src/XStreamRipper/streamripper/tre-0.7.5/lib/tre-config.h:
+/Users/yoav/src/foo/streamripper/tre-0.7.5/lib/tre-config.h:

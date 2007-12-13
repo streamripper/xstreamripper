@@ -21,14 +21,14 @@ filelib.o filelib.o: filelib.c /usr/include/stdio.h /usr/include/_types.h \
   /usr/include/pthread_impl.h /usr/include/sched.h /usr/include/time.h \
   /usr/include/_structs.h filelib.h srtypes.h srconfig.h config.h \
   /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
   /usr/include/_wctype.h /usr/include/wctype.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h mchar.h debug.h \
-  /usr/include/assert.h uce_dirent.h /usr/include/dirent.h \
-  /usr/include/sys/dirent.h
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  mchar.h debug.h /usr/include/assert.h uce_dirent.h \
+  /usr/include/dirent.h /usr/include/sys/dirent.h
 
 /usr/include/stdio.h:
 
@@ -134,7 +134,7 @@ config.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 
@@ -142,13 +142,13 @@ config.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
 /usr/include/_wctype.h:
 
 /usr/include/wctype.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 mchar.h:
 

@@ -13,26 +13,21 @@ ripogg.o ripogg.o: ripogg.c srconfig.h config.h /usr/include/stdio.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
   /usr/include/machine/types.h /usr/include/i386/types.h \
   /usr/include/errno.h /usr/include/sys/errno.h /usr/include/string.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h cbuf2.h \
-  srtypes.h /usr/include/sys/types.h /usr/include/inttypes.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h \
+  cbuf2.h srtypes.h /usr/include/sys/types.h /usr/include/inttypes.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h \
   /usr/include/sys/sockio.h /usr/include/sys/ioccom.h \
   /usr/include/wchar.h /usr/include/time.h /usr/include/_structs.h \
   /usr/include/_wctype.h /usr/include/ctype.h /usr/include/runetype.h \
   /usr/include/wctype.h \
-  /usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h threadlib.h \
-  compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
+  /Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h \
+  threadlib.h compat.h /usr/include/sys/stat.h /usr/include/unistd.h \
   /usr/include/sys/unistd.h /usr/include/sys/select.h \
   /usr/include/sys/_select.h /usr/include/fcntl.h \
   /usr/include/sys/fcntl.h /usr/include/semaphore.h \
   /usr/include/sys/semaphore.h /usr/include/pthread.h \
   /usr/include/pthread_impl.h /usr/include/sched.h list.h relaylib.h \
-  ripogg.h utf8.h debug.h mchar.h \
-  /Users/yoav/src/XStreamRipper/libogg-1.1.3/include/ogg/ogg.h \
-  /Users/yoav/src/XStreamRipper/libogg-1.1.3/include/ogg/os_types.h \
-  /Users/yoav/src/XStreamRipper/libogg-1.1.3/include/ogg/config_types.h \
-  /Users/yoav/src/XStreamRipper/libvorbis-1.2.0/include/vorbis/codec.h \
-  /usr/include/locale.h /usr/include/_locale.h
+  ripogg.h utf8.h debug.h mchar.h
 
 srconfig.h:
 
@@ -96,7 +91,7 @@ config.h:
 
 /usr/include/string.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdarg.h:
 
 cbuf2.h:
 
@@ -106,7 +101,7 @@ srtypes.h:
 
 /usr/include/inttypes.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stdint.h:
 
 /usr/include/sys/sockio.h:
 
@@ -126,7 +121,7 @@ srtypes.h:
 
 /usr/include/wctype.h:
 
-/usr/lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
+/Developer/usr/bin/../lib/gcc/i686-apple-darwin9/4.0.1/include/stddef.h:
 
 threadlib.h:
 
@@ -167,15 +162,3 @@ utf8.h:
 debug.h:
 
 mchar.h:
-
-/Users/yoav/src/XStreamRipper/libogg-1.1.3/include/ogg/ogg.h:
-
-/Users/yoav/src/XStreamRipper/libogg-1.1.3/include/ogg/os_types.h:
-
-/Users/yoav/src/XStreamRipper/libogg-1.1.3/include/ogg/config_types.h:
-
-/Users/yoav/src/XStreamRipper/libvorbis-1.2.0/include/vorbis/codec.h:
-
-/usr/include/locale.h:
-
-/usr/include/_locale.h:
