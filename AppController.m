@@ -552,8 +552,11 @@ byExtendingSelection:NO];
             /* display status */
             if (m_curinfo.filesize > 0)
             {
-                unsigned long size = m_curinfo.filesize;
-                int seconds = size / ( (1024/8) * m_curinfo.bitrate);
+							unsigned long size = m_curinfo.filesize;
+							unsigned long bitrate = m_curinfo.bitrate;
+							if (bitrate == 0) 
+							bitrate=128;
+							int seconds = size / ( (1024/8) * bitrate);
                 NSString *status, *time;
 
                 [progressIndicator setDoubleValue: (double) (size % (1024*1024))  ];
