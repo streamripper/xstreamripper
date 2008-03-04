@@ -152,8 +152,6 @@
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		17587328FF379C6511CA2CBB /* XStreamRipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = XStreamRipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E432DE040FAFD5000A9E7A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
-		18E432DF040FAFE2000A9E7A /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18E432E7040FBB37000A9E7A /* MyProxyUtil.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyProxyUtil.h; sourceTree = "<group>"; };
 		18E432E8040FBB37000A9E7A /* MyProxyUtil.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyProxyUtil.m; sourceTree = "<group>"; };
 		18E432EF040FBD20000A9E7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
@@ -183,7 +181,6 @@
 		F5522D8702C61F7A011C298C /* 16_loopback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16_loopback.png; path = images/16_loopback.png; sourceTree = "<group>"; };
 		F577F09D034EA89401064DC4 /* COMPILE.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = COMPILE.txt; sourceTree = "<group>"; };
 		F58BA7A602FD682E010FB769 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F58BA7A802FD68D7010FB769 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F5918CBA028CA76801877665 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 		F59A8A810293E11901A49554 /* RadioStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RadioStream.h; sourceTree = "<group>"; };
 		F59A8A820293E11901A49554 /* RadioStream.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RadioStream.m; sourceTree = "<group>"; };
@@ -501,9 +498,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				F58BA7A602FD682E010FB769 /* English */,
-				F58BA7A802FD68D7010FB769 /* Japanese */,
-				18E432DE040FAFD5000A9E7A /* German */,
-				18E432DF040FAFE2000A9E7A /* Italian */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

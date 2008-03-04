@@ -8,22 +8,6 @@
 			sepNavWindowFrame = "{{107, 182}, {1115, 907}}";
 		};
 	};
-	18E432DE040FAFD5000A9E7A /* German */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1297, 900}}";
-			sepNavSelRange = "{300, 0}";
-			sepNavVisRange = "{0, 524}";
-			sepNavWindowFrame = "{{61, 103}, {1356, 1028}}";
-		};
-	};
-	18E432DF040FAFE2000A9E7A /* Italian */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1297, 900}}";
-			sepNavSelRange = "{346, 0}";
-			sepNavVisRange = "{0, 545}";
-			sepNavWindowFrame = "{{84, 82}, {1356, 1028}}";
-		};
-	};
 	18E432E8040FBB37000A9E7A /* MyProxyUtil.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1297, 877}}";
@@ -69,6 +53,20 @@
 					PBXBreakpointsDataSource_ConditionID,
 					PBXBreakpointsDataSource_IgnoreCountID,
 					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					658,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
 				);
 			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
@@ -252,14 +250,6 @@
 			sepNavSelRange = "{433, 0}";
 			sepNavVisRange = "{0, 504}";
 			sepNavWindowFrame = "{{38, 124}, {1356, 1028}}";
-		};
-	};
-	F58BA7A802FD68D7010FB769 /* Japanese */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1297, 900}}";
-			sepNavSelRange = "{369, 0}";
-			sepNavVisRange = "{0, 509}";
-			sepNavWindowFrame = "{{15, 145}, {1356, 1028}}";
 		};
 	};
 	F5918CBA028CA76801877665 /* TODO.txt */ = {
