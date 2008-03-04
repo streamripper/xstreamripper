@@ -59,15 +59,17 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1 alpha</string>
+	<string>1.1.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1 -- 1.62.3 alpha</string>
+	<string>1.1.2</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://xstreamripper.googlecode.com/files/appcast.xml</string>
 </dict>
 </plist>
 ";
@@ -586,7 +588,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				HEADER_SEARCH_PATHS = (
 					streamripper/lib,
-					"streamripper/libmad-0.15.1b",
+					"libmad-0.15.1b",
 					"streamripper/tre-0.7.5/lib",
 				);
 				INSTALL_PATH = "$(HOME)/Applications";
