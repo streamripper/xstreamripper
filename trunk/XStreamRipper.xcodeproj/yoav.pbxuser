@@ -55,6 +55,20 @@
 					PBXBreakpointsDataSource_ContinueID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					578,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
@@ -105,6 +119,58 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					782,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					708,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					744,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -130,6 +196,22 @@
 			PBXPerProjectTemplateStateSaveDate = 226347072;
 			PBXWorkspaceStateSaveDate = 226347072;
 		};
+		perUserProjectItems = {
+			530706350D7DF7C000195510 /* PBXTargetBookmark */ = 530706350D7DF7C000195510 /* PBXTargetBookmark */;
+			530706360D7DF7C000195510 /* PBXTargetBookmark */ = 530706360D7DF7C000195510 /* PBXTargetBookmark */;
+			530706390D7DF7FA00195510 /* PBXTargetBookmark */ = 530706390D7DF7FA00195510 /* PBXTargetBookmark */;
+			5307063A0D7DF86F00195510 /* PBXTargetBookmark */ = 5307063A0D7DF86F00195510 /* PBXTargetBookmark */;
+			5307063B0D7DF87B00195510 /* PBXTargetBookmark */ = 5307063B0D7DF87B00195510 /* PBXTargetBookmark */;
+			5307063C0D7DF8D200195510 /* PBXTargetBookmark */ = 5307063C0D7DF8D200195510 /* PBXTargetBookmark */;
+			5307063D0D7DF93200195510 /* PBXTargetBookmark */ = 5307063D0D7DF93200195510 /* PBXTargetBookmark */;
+			5307063E0D7DF93D00195510 /* PBXTargetBookmark */ = 5307063E0D7DF93D00195510 /* PBXTargetBookmark */;
+			530706430D7DFB1800195510 /* PBXTargetBookmark */ = 530706430D7DFB1800195510 /* PBXTargetBookmark */;
+			530706440D7DFB1800195510 /* PBXTargetBookmark */ = 530706440D7DFB1800195510 /* PBXTargetBookmark */;
+			530706460D7DFBDC00195510 /* PBXTextBookmark */ = 530706460D7DFBDC00195510 /* PBXTextBookmark */;
+			530706480D7DFBDC00195510 /* PBXTextBookmark */ = 530706480D7DFBDC00195510 /* PBXTextBookmark */;
+			5307064A0D7DFBE600195510 /* PBXTargetBookmark */ = 5307064A0D7DFBE600195510 /* PBXTargetBookmark */;
+			5307064B0D7DFBE600195510 /* PBXTargetBookmark */ = 5307064B0D7DFBE600195510 /* PBXTargetBookmark */;
+		};
 		sourceControlManager = 5308859A0D053C9200040EE2 /* Source Control */;
 		userBuildSettings = {
 			OBJROOT = "$(SYMROOT)";
@@ -148,6 +230,231 @@
 		executables = (
 			530885820D053C9200040EE2 /* XStreamRipper */,
 		);
+	};
+	530706350D7DF7C000195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+	};
+	530706360D7DF7C000195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 306}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	530706390D7DF7FA00195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 306}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	5307063A0D7DF86F00195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 306}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	5307063B0D7DF87B00195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 321}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.info-plist.simple",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	5307063C0D7DF8D200195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 321}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	5307063D0D7DF93200195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 321}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	5307063E0D7DF93D00195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 321}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	530706430D7DFB1800195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 0}, {767, 321}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.settings",
+				"com.apple.target-editor-pane.settings.simple",
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 710}}";
+			TOCViewSelectedItems = (
+				PBXInfoPlistExpertSettingsEditorModule,
+			);
+		};
+	};
+	530706440D7DFB1800195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 1060}, {767, 710}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 710}}";
+			TOCViewSelectedItems = (
+				"com.apple.target-editor-pane.info-plist",
+			);
+		};
+	};
+	530706460D7DFBDC00195510 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: pointer targets in passing argument 2 of 'oggpack_readinit' differ in signedness";
+		fRef = 530706470D7DFBDC00195510 /* bitwise.c */;
+		rLen = 1;
+		rLoc = 656;
+		rType = 1;
+	};
+	530706470D7DFBDC00195510 /* bitwise.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = bitwise.c;
+		path = "/Users/yoav/src/xstreamripper/libogg-1.1.3/src/bitwise.c";
+		sourceTree = "<absolute>";
+	};
+	530706480D7DFBDC00195510 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 530706490D7DFBDC00195510 /* bitwise.c */;
+		name = "bitwise.c: 657";
+		rLen = 45;
+		rLoc = 17095;
+		rType = 0;
+		vrLen = 893;
+		vrLoc = 16697;
+	};
+	530706490D7DFBDC00195510 /* bitwise.c */ = {
+		isa = PBXFileReference;
+		name = bitwise.c;
+		path = "/Users/yoav/src/xstreamripper/libogg-1.1.3/src/bitwise.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1039, 10472}}";
+			sepNavSelRange = "{17095, 45}";
+			sepNavVisRange = "{16697, 893}";
+		};
+	};
+	5307064A0D7DFBE600195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 1053}, {767, 733}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				"com.apple.target-editor-pane.info-plist",
+			);
+		};
+	};
+	5307064B0D7DFBE600195510 /* PBXTargetBookmark */ = {
+		isa = PBXTargetBookmark;
+		trg = 29B97326FDCFA39411CA2CEA /* XStreamRipper */;
+		uiCtxt = {
+			TOCViewDetailVisibleRect = "{{0, 1053}, {767, 733}}";
+			TOCViewExpandedItems = (
+				"com.apple.target-editor-pane.info-plist",
+				"com.apple.target-editor-pane.buildphases",
+			);
+			TOCViewMasterVisibleRect = "{{0, 0}, {309, 733}}";
+			TOCViewSelectedItems = (
+				"com.apple.target-editor-pane.info-plist",
+			);
+		};
 	};
 	530885820D053C9200040EE2 /* XStreamRipper */ = {
 		isa = PBXExecutable;
