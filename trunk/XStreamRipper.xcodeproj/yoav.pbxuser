@@ -202,6 +202,8 @@
 			53D0C1D30D7E624300F2DE11 /* PBXTextBookmark */ = 53D0C1D30D7E624300F2DE11 /* PBXTextBookmark */;
 			53D0C1E40D7E645800F2DE11 /* PBXBookmark */ = 53D0C1E40D7E645800F2DE11 /* PBXBookmark */;
 			53D0C1E90D7E649F00F2DE11 /* PBXTextBookmark */ = 53D0C1E90D7E649F00F2DE11 /* PBXTextBookmark */;
+			53D0C2020D7E748500F2DE11 /* PBXBookmark */ = 53D0C2020D7E748500F2DE11 /* PBXBookmark */;
+			53D0C2060D7E753E00F2DE11 /* PBXTextBookmark */ = 53D0C2060D7E753E00F2DE11 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5308859A0D053C9200040EE2 /* Source Control */;
 		userBuildSettings = {
@@ -291,9 +293,9 @@
 	53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1056, 756}}";
-			sepNavSelRange = "{885, 0}";
-			sepNavVisRange = "{0, 885}";
-			sepNavWindowFrame = "{{710, 235}, {1115, 907}}";
+			sepNavSelRange = "{650, 0}";
+			sepNavVisRange = "{0, 897}";
+			sepNavWindowFrame = "{{651, 215}, {1115, 907}}";
 		};
 	};
 	53D0C1D30D7E624300F2DE11 /* PBXTextBookmark */ = {
@@ -315,9 +317,23 @@
 		fRef = 53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */;
 		name = "XStreamRipper-Info.plist: 26";
 		rLen = 0;
-		rLoc = 825;
+		rLoc = 824;
 		rType = 0;
 		vrLen = 885;
+		vrLoc = 0;
+	};
+	53D0C2020D7E748500F2DE11 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */;
+	};
+	53D0C2060D7E753E00F2DE11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */;
+		name = "XStreamRipper-Info.plist: 20";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 897;
 		vrLoc = 0;
 	};
 	53D3C9F60D09471700C34B84 /* XStreamRipper.icns */ = {
