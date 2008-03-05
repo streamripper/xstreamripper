@@ -20,115 +20,60 @@
 		};
 /* End PBXAggregateTarget section */
 
-/* Begin PBXApplicationTarget section */
-		29B97326FDCFA39411CA2CEA /* XStreamRipper */ = {
-			isa = PBXApplicationTarget;
-			buildConfigurationList = 530885990D053C9200040EE2 /* Build configuration list for PBXApplicationTarget "XStreamRipper" */;
-			buildPhases = (
-				29B97327FDCFA39411CA2CEA /* Headers */,
-				29B97328FDCFA39411CA2CEA /* Resources */,
-				29B9732BFDCFA39411CA2CEA /* Sources */,
-				29B9732DFDCFA39411CA2CEA /* Frameworks */,
-				53F61B170D7BAA0A0093B8B2 /* CopyFiles */,
-			);
-			dependencies = (
-				530885AD0D053D6200040EE2 /* PBXTargetDependency */,
-			);
-			name = XStreamRipper;
-			productInstallPath = "$(HOME)/Applications";
-			productName = streamripperx;
-			productReference = 17587328FF379C6511CA2CBB /* XStreamRipper.app */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>XStreamRipper</string>
-	<key>CFBundleGetInfoString</key>
-	<string>Internet radio to MP3</string>
-	<key>CFBundleIconFile</key>
-	<string>XStreamRipper</string>
-	<key>CFBundleIdentifier</key>
-	<string>org.yoav.xstreamripper</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>XStreamRipper</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.1.2</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>1.1.2</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
-	<key>SUFeedURL</key>
-	<string>http://xstreamripper.googlecode.com/files/appcast.xml</string>
-</dict>
-</plist>
-";
-		};
-/* End PBXApplicationTarget section */
-
 /* Begin PBXBuildFile section */
-		089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		18E432E9040FBB37000A9E7A /* MyProxyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E432E7040FBB37000A9E7A /* MyProxyUtil.h */; };
-		18E432EA040FBB37000A9E7A /* MyProxyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E432E8040FBB37000A9E7A /* MyProxyUtil.m */; };
-		18E432F0040FBD20000A9E7A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E432EF040FBD20000A9E7A /* SystemConfiguration.framework */; };
-		530706040D7DDAD500195510 /* libmad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 530706030D7DDAD500195510 /* libmad.a */; };
-		530885B70D053F9B00040EE2 /* libstreamripper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 530885B60D053F9B00040EE2 /* libstreamripper.a */; };
-		530885D10D05455200040EE2 /* libtre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 530885D00D05455200040EE2 /* libtre.a */; };
-		53174D600D077A6800359A5E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 53174D5E0D077A6800359A5E /* MainMenu.nib */; };
-		53586ECC0D0651CC00638EE9 /* NSString_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 53586ECB0D0651CC00638EE9 /* NSString_Extensions.h */; };
-		53586ED30D0651D600638EE9 /* NSString_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53586ED20D0651D600638EE9 /* NSString_Extensions.m */; };
-		535C01460D07845D00A0007F /* UsingXStreamRipper.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 535C01450D07845D00A0007F /* UsingXStreamRipper.rtf */; };
-		535C01780D078BE600A0007F /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535C01770D078BE600A0007F /* libogg.a */; };
-		535C017B0D078C3D00A0007F /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535C017A0D078C3D00A0007F /* libvorbis.a */; };
-		53D3C9F70D09471700C34B84 /* XStreamRipper.icns in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C9F60D09471700C34B84 /* XStreamRipper.icns */; };
-		53F61AF80D7BA9DC0093B8B2 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F61AF70D7BA9DC0093B8B2 /* Sparkle.framework */; };
-		53F61B1A0D7BAA810093B8B2 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53F61AF70D7BA9DC0093B8B2 /* Sparkle.framework */; };
-		F5237A8E02E319E901D342CA /* HISTORY.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5237A8D02E319E901D342CA /* HISTORY.txt */; };
-		F53E1DDC02898AF501CB1FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		F53E1DE2028AB14801CB1FDE /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E1DE0028AB14801CB1FDE /* AppController.h */; };
-		F53E1DE3028AB14801CB1FDE /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E1DE1028AB14801CB1FDE /* AppController.m */; };
-		F53F131A03A0ECB301C7E975 /* MyOutlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = F53F131803A0ECB201C7E975 /* MyOutlineView.h */; };
-		F53F131B03A0ECB301C7E975 /* MyOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F131903A0ECB201C7E975 /* MyOutlineView.m */; };
-		F54D1D230307E7B601A925A9 /* LinkCursor.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F54D1D220307E7B601A925A9 /* LinkCursor.tiff */; };
-		F5522D7502C5EE07011C298C /* radiostreams.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5522D7402C5EE07011C298C /* radiostreams.plist */; };
-		F5522D8502C61E47011C298C /* song.png in Resources */ = {isa = PBXBuildFile; fileRef = F5522D8302C61E47011C298C /* song.png */; };
-		F5522D8602C61E47011C298C /* stream.png in Resources */ = {isa = PBXBuildFile; fileRef = F5522D8402C61E47011C298C /* stream.png */; };
-		F5522D8802C61F7A011C298C /* 16_loopback.png in Resources */ = {isa = PBXBuildFile; fileRef = F5522D8702C61F7A011C298C /* 16_loopback.png */; };
-		F58BA7A702FD682E010FB769 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58BA7A502FD682E010FB769 /* Localizable.strings */; };
-		F5991B6A03645966015F201B /* COMPILE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F577F09D034EA89401064DC4 /* COMPILE.txt */; };
-		F59A8A830293E11901A49554 /* RadioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A8A810293E11901A49554 /* RadioStream.h */; };
-		F59A8A840293E11901A49554 /* RadioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A8A820293E11901A49554 /* RadioStream.m */; };
-		F5A12C8002995BAA0157B0D9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F5A12C7F02995BAA0157B0D9 /* Credits.rtf */; };
-		F5C8B57F0369BEDD012C59C5 /* ParseShoutcastWWW.pl in Resources */ = {isa = PBXBuildFile; fileRef = F5C8B57E0369BEDD012C59C5 /* ParseShoutcastWWW.pl */; };
-		F5D0783602BF81C601113806 /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D0783202BF81C601113806 /* Node.h */; };
-		F5D0783702BF81C601113806 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0783302BF81C601113806 /* Node.m */; };
-		F5D0783802BF81C601113806 /* OLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D0783402BF81C601113806 /* OLDataSource.h */; };
-		F5D0783902BF81C601113806 /* OLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0783502BF81C601113806 /* OLDataSource.m */; };
-		F5D0784402BF8C7001113806 /* 24_add_row.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0783A02BF8C7001113806 /* 24_add_row.png */; };
-		F5D0784502BF8C7001113806 /* 24_delete_row.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0783B02BF8C7001113806 /* 24_delete_row.png */; };
-		F5D0784A02BF8C7001113806 /* stock_exec.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0784002BF8C7001113806 /* stock_exec.png */; };
-		F5D0784B02BF8C7001113806 /* stock_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0784102BF8C7001113806 /* stock_stop.png */; };
-		F5D078DE02BF9D1C01113806 /* 16_sound_gnome.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D078DD02BF9D1C01113806 /* 16_sound_gnome.png */; };
-		F5D078E002BF9F1401113806 /* local-16folder-evolution.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D078DF02BF9F1401113806 /* local-16folder-evolution.png */; };
-		F5D078E802C0CE7301113806 /* ImageAndTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D078E402C0CE7301113806 /* ImageAndTextCell.h */; };
-		F5D078E902C0CE7301113806 /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D078E502C0CE7301113806 /* ImageAndTextCell.m */; };
-		F5D078EA02C0CE7301113806 /* NSOutlineView_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D078E602C0CE7301113806 /* NSOutlineView_Extensions.h */; };
-		F5D078EB02C0CE7301113806 /* NSOutlineView_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D078E702C0CE7301113806 /* NSOutlineView_Extensions.m */; };
+		53AC62AA0D7E551400B3CA5B /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53E1DE0028AB14801CB1FDE /* AppController.h */; };
+		53AC62AB0D7E551400B3CA5B /* ImageAndTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D078E402C0CE7301113806 /* ImageAndTextCell.h */; };
+		53AC62AC0D7E551400B3CA5B /* MyOutlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = F53F131803A0ECB201C7E975 /* MyOutlineView.h */; };
+		53AC62AD0D7E551400B3CA5B /* MyProxyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E432E7040FBB37000A9E7A /* MyProxyUtil.h */; };
+		53AC62AE0D7E551400B3CA5B /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D0783202BF81C601113806 /* Node.h */; };
+		53AC62AF0D7E551400B3CA5B /* NSOutlineView_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D078E602C0CE7301113806 /* NSOutlineView_Extensions.h */; };
+		53AC62B00D7E551400B3CA5B /* NSString_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 53586ECB0D0651CC00638EE9 /* NSString_Extensions.h */; };
+		53AC62B10D7E551400B3CA5B /* OLDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D0783402BF81C601113806 /* OLDataSource.h */; };
+		53AC62B20D7E551400B3CA5B /* RadioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F59A8A810293E11901A49554 /* RadioStream.h */; };
+		53CD1DE00D7E50EF007E656B /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F61AF70D7BA9DC0093B8B2 /* Sparkle.framework */; };
+		53CD1DF90D7E51DE007E656B /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53F61AF70D7BA9DC0093B8B2 /* Sparkle.framework */; };
+		53CD1DFA0D7E5212007E656B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		53CD1DFD0D7E5219007E656B /* libstreamripper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 530885B60D053F9B00040EE2 /* libstreamripper.a */; };
+		53CD1DFE0D7E5219007E656B /* libmad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 530706030D7DDAD500195510 /* libmad.a */; };
+		53CD1DFF0D7E5219007E656B /* libtre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 530885D00D05455200040EE2 /* libtre.a */; };
+		53CD1E000D7E5219007E656B /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535C01770D078BE600A0007F /* libogg.a */; };
+		53CD1E010D7E5219007E656B /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535C017A0D078C3D00A0007F /* libvorbis.a */; };
+		53CD1E020D7E522B007E656B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		53CD1E030D7E522B007E656B /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E1DE1028AB14801CB1FDE /* AppController.m */; };
+		53CD1E040D7E522B007E656B /* RadioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A8A820293E11901A49554 /* RadioStream.m */; };
+		53CD1E050D7E522B007E656B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0783302BF81C601113806 /* Node.m */; };
+		53CD1E060D7E522B007E656B /* OLDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0783502BF81C601113806 /* OLDataSource.m */; };
+		53CD1E070D7E522B007E656B /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D078E502C0CE7301113806 /* ImageAndTextCell.m */; };
+		53CD1E080D7E522B007E656B /* NSOutlineView_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D078E702C0CE7301113806 /* NSOutlineView_Extensions.m */; };
+		53CD1E090D7E522B007E656B /* MyOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53F131903A0ECB201C7E975 /* MyOutlineView.m */; };
+		53CD1E0A0D7E522B007E656B /* MyProxyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E432E8040FBB37000A9E7A /* MyProxyUtil.m */; };
+		53CD1E0B0D7E522B007E656B /* NSString_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53586ED20D0651D600638EE9 /* NSString_Extensions.m */; };
+		53CD1E0C0D7E5245007E656B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		53CD1E0D0D7E5245007E656B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F5A12C7F02995BAA0157B0D9 /* Credits.rtf */; };
+		53CD1E0E0D7E5245007E656B /* 24_add_row.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0783A02BF8C7001113806 /* 24_add_row.png */; };
+		53CD1E0F0D7E5245007E656B /* 24_delete_row.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0783B02BF8C7001113806 /* 24_delete_row.png */; };
+		53CD1E100D7E5245007E656B /* stock_exec.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0784002BF8C7001113806 /* stock_exec.png */; };
+		53CD1E110D7E5245007E656B /* stock_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D0784102BF8C7001113806 /* stock_stop.png */; };
+		53CD1E120D7E5245007E656B /* 16_sound_gnome.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D078DD02BF9D1C01113806 /* 16_sound_gnome.png */; };
+		53CD1E130D7E5245007E656B /* local-16folder-evolution.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D078DF02BF9F1401113806 /* local-16folder-evolution.png */; };
+		53CD1E140D7E5245007E656B /* radiostreams.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5522D7402C5EE07011C298C /* radiostreams.plist */; };
+		53CD1E150D7E5245007E656B /* song.png in Resources */ = {isa = PBXBuildFile; fileRef = F5522D8302C61E47011C298C /* song.png */; };
+		53CD1E160D7E5245007E656B /* stream.png in Resources */ = {isa = PBXBuildFile; fileRef = F5522D8402C61E47011C298C /* stream.png */; };
+		53CD1E170D7E5245007E656B /* 16_loopback.png in Resources */ = {isa = PBXBuildFile; fileRef = F5522D8702C61F7A011C298C /* 16_loopback.png */; };
+		53CD1E180D7E5245007E656B /* HISTORY.txt in Resources */ = {isa = PBXBuildFile; fileRef = F5237A8D02E319E901D342CA /* HISTORY.txt */; };
+		53CD1E190D7E5245007E656B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58BA7A502FD682E010FB769 /* Localizable.strings */; };
+		53CD1E1A0D7E5245007E656B /* LinkCursor.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F54D1D220307E7B601A925A9 /* LinkCursor.tiff */; };
+		53CD1E1B0D7E5245007E656B /* COMPILE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F577F09D034EA89401064DC4 /* COMPILE.txt */; };
+		53CD1E1C0D7E5245007E656B /* ParseShoutcastWWW.pl in Resources */ = {isa = PBXBuildFile; fileRef = F5C8B57E0369BEDD012C59C5 /* ParseShoutcastWWW.pl */; };
+		53CD1E1D0D7E5245007E656B /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 53174D5E0D077A6800359A5E /* MainMenu.nib */; };
+		53CD1E1E0D7E5245007E656B /* UsingXStreamRipper.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 535C01450D07845D00A0007F /* UsingXStreamRipper.rtf */; };
+		53CD1E1F0D7E5245007E656B /* XStreamRipper.icns in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C9F60D09471700C34B84 /* XStreamRipper.icns */; };
+		53F6FAA50D7E5F5F00D0CC88 /* argv.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F6FAA40D7E5F5F00D0CC88 /* argv.o */; };
+		53F6FAA70D7E5FEA00D0CC88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E432EF040FBD20000A9E7A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		530885AC0D053D6200040EE2 /* PBXContainerItemProxy */ = {
+		53CD1E220D7E5278007E656B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
@@ -138,13 +83,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		53F61B170D7BAA0A0093B8B2 /* CopyFiles */ = {
+		53CD1DF80D7E51B4007E656B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				53F61B1A0D7BAA810093B8B2 /* Sparkle.framework in CopyFiles */,
+				53CD1DF90D7E51DE007E656B /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +98,6 @@
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		17587328FF379C6511CA2CBB /* XStreamRipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = XStreamRipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E432E7040FBB37000A9E7A /* MyProxyUtil.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyProxyUtil.h; sourceTree = "<group>"; };
 		18E432E8040FBB37000A9E7A /* MyProxyUtil.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyProxyUtil.m; sourceTree = "<group>"; };
 		18E432EF040FBD20000A9E7A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
@@ -169,8 +113,11 @@
 		535C01450D07845D00A0007F /* UsingXStreamRipper.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = UsingXStreamRipper.rtf; sourceTree = "<group>"; };
 		535C01770D078BE600A0007F /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = "libogg-1.1.3/libogg.a"; sourceTree = "<group>"; };
 		535C017A0D078C3D00A0007F /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = "libvorbis-1.2.0/libvorbis.a"; sourceTree = "<group>"; };
+		53CD1DD90D7E50C6007E656B /* XStreamRipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XStreamRipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XStreamRipper-Info.plist"; sourceTree = "<group>"; };
 		53D3C9F60D09471700C34B84 /* XStreamRipper.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = XStreamRipper.icns; sourceTree = "<group>"; };
 		53F61AF70D7BA9DC0093B8B2 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		53F6FAA40D7E5F5F00D0CC88 /* argv.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = argv.o; path = streamripper/argv.o; sourceTree = "<group>"; };
 		F5237A8D02E319E901D342CA /* HISTORY.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = HISTORY.txt; sourceTree = "<group>"; };
 		F53E1DE0028AB14801CB1FDE /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		F53E1DE1028AB14801CB1FDE /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
@@ -205,18 +152,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29B9732DFDCFA39411CA2CEA /* Frameworks */ = {
+		53CD1DD70D7E50C6007E656B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1058C7A3FEA54F0111CA2CBB /* Cocoa.framework in Frameworks */,
-				18E432F0040FBD20000A9E7A /* SystemConfiguration.framework in Frameworks */,
-				530885B70D053F9B00040EE2 /* libstreamripper.a in Frameworks */,
-				530706040D7DDAD500195510 /* libmad.a in Frameworks */,
-				530885D10D05455200040EE2 /* libtre.a in Frameworks */,
-				535C01780D078BE600A0007F /* libogg.a in Frameworks */,
-				535C017B0D078C3D00A0007F /* libvorbis.a in Frameworks */,
-				53F61AF80D7BA9DC0093B8B2 /* Sparkle.framework in Frameworks */,
+				53F6FAA70D7E5FEA00D0CC88 /* SystemConfiguration.framework in Frameworks */,
+				53CD1DFD0D7E5219007E656B /* libstreamripper.a in Frameworks */,
+				53CD1DFE0D7E5219007E656B /* libmad.a in Frameworks */,
+				53CD1DFF0D7E5219007E656B /* libtre.a in Frameworks */,
+				53CD1E000D7E5219007E656B /* libogg.a in Frameworks */,
+				53CD1E010D7E5219007E656B /* libvorbis.a in Frameworks */,
+				53CD1DFA0D7E5212007E656B /* Cocoa.framework in Frameworks */,
+				53CD1DE00D7E50EF007E656B /* Sparkle.framework in Frameworks */,
+				53F6FAA50D7E5F5F00D0CC88 /* argv.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +224,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17587328FF379C6511CA2CBB /* XStreamRipper.app */,
+				53CD1DD90D7E50C6007E656B /* XStreamRipper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,6 +240,7 @@
 				F5918CBA028CA76801877665 /* TODO.txt */,
 				F5237A8D02E319E901D342CA /* HISTORY.txt */,
 				F577F09D034EA89401064DC4 /* COMPILE.txt */,
+				53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */,
 			);
 			name = streamripperx;
 			sourceTree = "<group>";
@@ -299,6 +248,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				53F6FAA40D7E5F5F00D0CC88 /* argv.o */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -364,23 +314,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29B97327FDCFA39411CA2CEA /* Headers */ = {
+		53AC62A90D7E550E00B3CA5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53E1DE2028AB14801CB1FDE /* AppController.h in Headers */,
-				F59A8A830293E11901A49554 /* RadioStream.h in Headers */,
-				F5D0783602BF81C601113806 /* Node.h in Headers */,
-				F5D0783802BF81C601113806 /* OLDataSource.h in Headers */,
-				F5D078E802C0CE7301113806 /* ImageAndTextCell.h in Headers */,
-				F5D078EA02C0CE7301113806 /* NSOutlineView_Extensions.h in Headers */,
-				F53F131A03A0ECB301C7E975 /* MyOutlineView.h in Headers */,
-				18E432E9040FBB37000A9E7A /* MyProxyUtil.h in Headers */,
-				53586ECC0D0651CC00638EE9 /* NSString_Extensions.h in Headers */,
+				53AC62AA0D7E551400B3CA5B /* AppController.h in Headers */,
+				53AC62AB0D7E551400B3CA5B /* ImageAndTextCell.h in Headers */,
+				53AC62AC0D7E551400B3CA5B /* MyOutlineView.h in Headers */,
+				53AC62AD0D7E551400B3CA5B /* MyProxyUtil.h in Headers */,
+				53AC62AE0D7E551400B3CA5B /* Node.h in Headers */,
+				53AC62AF0D7E551400B3CA5B /* NSOutlineView_Extensions.h in Headers */,
+				53AC62B00D7E551400B3CA5B /* NSString_Extensions.h in Headers */,
+				53AC62B10D7E551400B3CA5B /* OLDataSource.h in Headers */,
+				53AC62B20D7E551400B3CA5B /* RadioStream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53CD1DD80D7E50C6007E656B /* XStreamRipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD1DDF0D7E50C7007E656B /* Build configuration list for PBXNativeTarget "XStreamRipper" */;
+			buildPhases = (
+				53CD1DD50D7E50C6007E656B /* Resources */,
+				53CD1DD60D7E50C6007E656B /* Sources */,
+				53CD1DD70D7E50C6007E656B /* Frameworks */,
+				53CD1DF80D7E51B4007E656B /* CopyFiles */,
+				53AC62A90D7E550E00B3CA5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CD1E230D7E5278007E656B /* PBXTargetDependency */,
+			);
+			name = XStreamRipper;
+			productName = XStreamRipper;
+			productReference = 53CD1DD90D7E50C6007E656B /* XStreamRipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -399,37 +372,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29B97326FDCFA39411CA2CEA /* XStreamRipper */,
+				53CD1DD80D7E50C6007E656B /* XStreamRipper */,
 				530885A00D053CCD00040EE2 /* streamlib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29B97328FDCFA39411CA2CEA /* Resources */ = {
+		53CD1DD50D7E50C6007E656B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */,
-				F5A12C8002995BAA0157B0D9 /* Credits.rtf in Resources */,
-				F5D0784402BF8C7001113806 /* 24_add_row.png in Resources */,
-				F5D0784502BF8C7001113806 /* 24_delete_row.png in Resources */,
-				F5D0784A02BF8C7001113806 /* stock_exec.png in Resources */,
-				F5D0784B02BF8C7001113806 /* stock_stop.png in Resources */,
-				F5D078DE02BF9D1C01113806 /* 16_sound_gnome.png in Resources */,
-				F5D078E002BF9F1401113806 /* local-16folder-evolution.png in Resources */,
-				F5522D7502C5EE07011C298C /* radiostreams.plist in Resources */,
-				F5522D8502C61E47011C298C /* song.png in Resources */,
-				F5522D8602C61E47011C298C /* stream.png in Resources */,
-				F5522D8802C61F7A011C298C /* 16_loopback.png in Resources */,
-				F5237A8E02E319E901D342CA /* HISTORY.txt in Resources */,
-				F58BA7A702FD682E010FB769 /* Localizable.strings in Resources */,
-				F54D1D230307E7B601A925A9 /* LinkCursor.tiff in Resources */,
-				F5991B6A03645966015F201B /* COMPILE.txt in Resources */,
-				F5C8B57F0369BEDD012C59C5 /* ParseShoutcastWWW.pl in Resources */,
-				53174D600D077A6800359A5E /* MainMenu.nib in Resources */,
-				535C01460D07845D00A0007F /* UsingXStreamRipper.rtf in Resources */,
-				53D3C9F70D09471700C34B84 /* XStreamRipper.icns in Resources */,
+				53CD1E0C0D7E5245007E656B /* InfoPlist.strings in Resources */,
+				53CD1E0D0D7E5245007E656B /* Credits.rtf in Resources */,
+				53CD1E0E0D7E5245007E656B /* 24_add_row.png in Resources */,
+				53CD1E0F0D7E5245007E656B /* 24_delete_row.png in Resources */,
+				53CD1E100D7E5245007E656B /* stock_exec.png in Resources */,
+				53CD1E110D7E5245007E656B /* stock_stop.png in Resources */,
+				53CD1E120D7E5245007E656B /* 16_sound_gnome.png in Resources */,
+				53CD1E130D7E5245007E656B /* local-16folder-evolution.png in Resources */,
+				53CD1E140D7E5245007E656B /* radiostreams.plist in Resources */,
+				53CD1E150D7E5245007E656B /* song.png in Resources */,
+				53CD1E160D7E5245007E656B /* stream.png in Resources */,
+				53CD1E170D7E5245007E656B /* 16_loopback.png in Resources */,
+				53CD1E180D7E5245007E656B /* HISTORY.txt in Resources */,
+				53CD1E190D7E5245007E656B /* Localizable.strings in Resources */,
+				53CD1E1A0D7E5245007E656B /* LinkCursor.tiff in Resources */,
+				53CD1E1B0D7E5245007E656B /* COMPILE.txt in Resources */,
+				53CD1E1C0D7E5245007E656B /* ParseShoutcastWWW.pl in Resources */,
+				53CD1E1D0D7E5245007E656B /* MainMenu.nib in Resources */,
+				53CD1E1E0D7E5245007E656B /* UsingXStreamRipper.rtf in Resources */,
+				53CD1E1F0D7E5245007E656B /* XStreamRipper.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,30 +425,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29B9732BFDCFA39411CA2CEA /* Sources */ = {
+		53CD1DD60D7E50C6007E656B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53E1DDC02898AF501CB1FDE /* main.m in Sources */,
-				F53E1DE3028AB14801CB1FDE /* AppController.m in Sources */,
-				F59A8A840293E11901A49554 /* RadioStream.m in Sources */,
-				F5D0783702BF81C601113806 /* Node.m in Sources */,
-				F5D0783902BF81C601113806 /* OLDataSource.m in Sources */,
-				F5D078E902C0CE7301113806 /* ImageAndTextCell.m in Sources */,
-				F5D078EB02C0CE7301113806 /* NSOutlineView_Extensions.m in Sources */,
-				F53F131B03A0ECB301C7E975 /* MyOutlineView.m in Sources */,
-				18E432EA040FBB37000A9E7A /* MyProxyUtil.m in Sources */,
-				53586ED30D0651D600638EE9 /* NSString_Extensions.m in Sources */,
+				53CD1E020D7E522B007E656B /* main.m in Sources */,
+				53CD1E030D7E522B007E656B /* AppController.m in Sources */,
+				53CD1E040D7E522B007E656B /* RadioStream.m in Sources */,
+				53CD1E050D7E522B007E656B /* Node.m in Sources */,
+				53CD1E060D7E522B007E656B /* OLDataSource.m in Sources */,
+				53CD1E070D7E522B007E656B /* ImageAndTextCell.m in Sources */,
+				53CD1E080D7E522B007E656B /* NSOutlineView_Extensions.m in Sources */,
+				53CD1E090D7E522B007E656B /* MyOutlineView.m in Sources */,
+				53CD1E0A0D7E522B007E656B /* MyProxyUtil.m in Sources */,
+				53CD1E0B0D7E522B007E656B /* NSString_Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		530885AD0D053D6200040EE2 /* PBXTargetDependency */ = {
+		53CD1E230D7E5278007E656B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 530885A00D053CCD00040EE2 /* streamlib */;
-			targetProxy = 530885AC0D053D6200040EE2 /* PBXContainerItemProxy */;
+			targetProxy = 53CD1E220D7E5278007E656B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -531,130 +504,6 @@
 			};
 			name = Default;
 		};
-		530885910D053C9200040EE2 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				HEADER_SEARCH_PATHS = (
-					"streamripper/tre-0.7.5/lib",
-					"streamripper/libmad-0.15.1b",
-					streamripper/lib,
-				);
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					libvorbis,
-					libogg,
-					"\"$(SRCROOT)/streamripper/lib\"",
-					"\"$(SRCROOT)/streamripper\"",
-					"\"$(SRCROOT)/libogg-1.1.3\"",
-					"\"$(SRCROOT)/libvorbis-1.2.0\"",
-					"\"$(SRCROOT)/libmad\"",
-				);
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "-DDEBUG";
-				OTHER_LDFLAGS = (
-					"-liconv",
-					streamripper/argv.o,
-				);
-				PRODUCT_NAME = XStreamRipper;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		530885920D053C9200040EE2 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUGGING_SYMBOLS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				HEADER_SEARCH_PATHS = (
-					streamripper/lib,
-					"libmad-0.15.1b",
-					"streamripper/tre-0.7.5/lib",
-				);
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					libogg,
-					libvorbis,
-					"\"$(SRCROOT)/streamripper/lib\"",
-					"\"$(SRCROOT)/streamripper\"",
-					"\"$(SRCROOT)/libogg-1.1.3\"",
-					"\"$(SRCROOT)/libvorbis-1.2.0\"",
-					"\"$(SRCROOT)/libmad\"",
-				);
-				OPTIMIZATION_CFLAGS = "-O3";
-				OTHER_LDFLAGS = (
-					"-liconv",
-					streamripper/argv.o,
-				);
-				PRODUCT_NAME = XStreamRipper;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		530885930D053C9200040EE2 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUGGING_SYMBOLS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					streamripper/lib,
-					"streamripper/libmad-0.15.1b",
-					"streamripper/tre-0.7.5/lib",
-				);
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/streamripper/lib\"",
-					"\"$(SRCROOT)/streamripper\"",
-					"\"$(SRCROOT)/libogg-1.1.3\"",
-					"\"$(SRCROOT)/libvorbis-1.2.0\"",
-					"\"$(SRCROOT)/libmad\"",
-				);
-				OPTIMIZATION_CFLAGS = "-O3";
-				OTHER_LDFLAGS = (
-					"-liconv",
-					streamripper/argv.o,
-				);
-				PRODUCT_NAME = XStreamRipper;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
-			name = Default;
-		};
 		530885A10D053CCD00040EE2 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -683,6 +532,146 @@
 			};
 			name = Default;
 		};
+		53CD1DDC0D7E50C7007E656B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH_32_BIT)",
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = (
+					streamripper/lib,
+					libmad/,
+					"streamripper/tre-0.7.5/lib",
+				);
+				INFOPLIST_FILE = "XStreamRipper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/streamripper/lib\"",
+					"\"$(SRCROOT)/libmad\"",
+					"\"$(SRCROOT)/streamripper\"",
+					"\"$(SRCROOT)/libogg\"",
+					"\"$(SRCROOT)/libvorbis\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-liconv",
+				);
+				PREBINDING = NO;
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = XStreamRipper;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		53CD1DDD0D7E50C7007E656B /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH_32_BIT)",
+					ppc,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = (
+					streamripper/lib,
+					libmad/,
+					"streamripper/tre-0.7.5/lib",
+				);
+				INFOPLIST_FILE = "XStreamRipper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/streamripper/lib\"",
+					"\"$(SRCROOT)/libmad\"",
+					"\"$(SRCROOT)/streamripper\"",
+					"\"$(SRCROOT)/libogg\"",
+					"\"$(SRCROOT)/libvorbis\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-liconv",
+				);
+				PREBINDING = NO;
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = XStreamRipper;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		53CD1DDE0D7E50C7007E656B /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(NATIVE_ARCH_32_BIT)",
+					ppc,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				HEADER_SEARCH_PATHS = (
+					streamripper/lib,
+					libmad/,
+					"streamripper/tre-0.7.5/lib",
+				);
+				INFOPLIST_FILE = "XStreamRipper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/streamripper/lib\"",
+					"\"$(SRCROOT)/libmad\"",
+					"\"$(SRCROOT)/streamripper\"",
+					"\"$(SRCROOT)/libogg\"",
+					"\"$(SRCROOT)/libvorbis\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-liconv",
+				);
+				PREBINDING = NO;
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = XStreamRipper;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -696,22 +685,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		530885990D053C9200040EE2 /* Build configuration list for PBXApplicationTarget "XStreamRipper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				530885910D053C9200040EE2 /* Development */,
-				530885920D053C9200040EE2 /* Deployment */,
-				530885930D053C9200040EE2 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
 		530885A40D053CEB00040EE2 /* Build configuration list for PBXAggregateTarget "streamlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				530885A10D053CCD00040EE2 /* Development */,
 				530885A20D053CCD00040EE2 /* Deployment */,
 				530885A30D053CCD00040EE2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		53CD1DDF0D7E50C7007E656B /* Build configuration list for PBXNativeTarget "XStreamRipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD1DDC0D7E50C7007E656B /* Development */,
+				53CD1DDD0D7E50C7007E656B /* Deployment */,
+				53CD1DDE0D7E50C7007E656B /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
