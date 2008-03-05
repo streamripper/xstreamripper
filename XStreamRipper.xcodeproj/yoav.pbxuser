@@ -287,6 +287,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = XStreamRipper;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};

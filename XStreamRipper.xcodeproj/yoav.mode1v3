@@ -527,7 +527,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>226391413.06402799</real>
+	<real>226392401.33353999</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -542,6 +542,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>53D0C2140D7E795100F2DE11</string>
+		<string>53D0C2150D7E795100F2DE11</string>
+		<string>53D0C2160D7E795100F2DE11</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>530885AA0D053D5800040EE2</string>
@@ -586,6 +589,8 @@
 							<string>417pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXBuildLogShowsTranscriptDefaultKey</key>
@@ -721,10 +726,10 @@
 									<key>Frame</key>
 									<string>{{527, 0}, {628, 341}}</string>
 									<key>RubberWindowFrame</key>
-									<string>293 319 1155 680 0 0 1920 1178 </string>
+									<string>147 410 1155 680 0 0 1920 1178 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>293 319 1155 680 0 0 1920 1178 </string>
+								<string>147 410 1155 680 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -758,7 +763,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>293 319 1155 680 0 0 1920 1178 </string>
+			<string>147 410 1155 680 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
