@@ -68,6 +68,7 @@
 		53CD1E1D0D7E5245007E656B /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 53174D5E0D077A6800359A5E /* MainMenu.nib */; };
 		53CD1E1E0D7E5245007E656B /* UsingXStreamRipper.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 535C01450D07845D00A0007F /* UsingXStreamRipper.rtf */; };
 		53CD1E1F0D7E5245007E656B /* XStreamRipper.icns in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C9F60D09471700C34B84 /* XStreamRipper.icns */; };
+		53D0C1F90D7E736300F2DE11 /* XStreamRipper-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53CD1DDB0D7E50C6007E656B /* XStreamRipper-Info.plist */; };
 		53F6FAA50D7E5F5F00D0CC88 /* argv.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F6FAA40D7E5F5F00D0CC88 /* argv.o */; };
 		53F6FAA70D7E5FEA00D0CC88 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E432EF040FBD20000A9E7A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -383,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D0C1F90D7E736300F2DE11 /* XStreamRipper-Info.plist in Resources */,
 				53CD1E0C0D7E5245007E656B /* InfoPlist.strings in Resources */,
 				53CD1E0D0D7E5245007E656B /* Credits.rtf in Resources */,
 				53CD1E0E0D7E5245007E656B /* 24_add_row.png in Resources */,
